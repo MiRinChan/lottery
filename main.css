@@ -1,0 +1,22 @@
+body {
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 4rem 0.5rem;
+}
+
+.lottery {
+    width: 100%;
+}
+
+.lottery .infomation {
+    padding: 1rem;
+}
+
+.panel {
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.mdui-prose hr {
+    margin-top: 0em;
+    margin-bottom: 1em;
+}

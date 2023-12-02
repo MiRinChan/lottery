@@ -1,0 +1,40 @@
+<html class="mdui-theme-auto">
+
+    <head>
+        <meta charset="utf8" />
+        <title>抽奖页</title>
+        <link rel="stylesheet" href="https://unpkg.com/mdui@2.0.2/mdui.css">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://unpkg.com/mdui@2.0.2/mdui.global.js"></script>
+    </head>
+
+    <body>
+        <div class="mdui-prose">
+            <h1>参与 <span>牛魔烧饼</span> 抽奖</h1>
+            <!-- 信息展示 -->
+            <mdui-card variant="filled" class="lottery mdui-prose">
+                <mdui-layout>
+                    <mdui-top-app-bar>
+                        <mdui-top-app-bar-title>抽奖信息</mdui-top-app-bar-title>
+                    </mdui-top-app-bar>
+                    <mdui-layout-main>
+                        <div class="infomation">
+                            活动：<br />
+                            奖品：<br />
+                            时间：<br />
+                            死线：<br />
+                        </div>
+                        <div class="panel">
+                            <mdui-button icon="check">参与</mdui-button>
+                            <mdui-button icon="refresh" variant="outlined">刷新</mdui-button>
+                        </div>
+                    </mdui-layout-main>
+                </mdui-layout>
+            </mdui-card>
+            查看活动页
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+
+</html>
